@@ -1,0 +1,106 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+  font-family: Arial, sans-serif;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+#clg-name {
+  height: 18%;
+  width: 100%;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#clg-name h1 {
+  font-size: 45px;
+  text-decoration: underline;
+}
+#logo {
+  height: 18%;
+  width: 100%;
+  /* background: rgb(31, 40, 170); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo img {
+  height: 17vh;
+  width: 11vw;
+  object-fit: contain;
+}
+#year {
+  height: 8%;
+  width: 100%;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#year h6 {
+  font-size: 15px;
+}
+#name {
+  height: 70vh;
+  width: 41%;
+  /* background: rgb(31, 40, 170); */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 29vw;
+  margin-top: 5vh;
+  text-align: center;
+  border: 2px solid black;
+}
+#name h3 {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(79, 74, 74, 0.7);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 100;
+  color: white;
+}
+.submit-1 {
+  height: 50px;
+  width: 100%;
+  /* background: rgb(31, 40, 170); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 20px;
+}
+.submit-2 {
+  height: 50px;
+  width: 100%;
+  /* background: rgb(31, 40, 170); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+  padding: 20px;
+}
+.submit-1 h6,
+.submit-2 h6 {
+  font-size: 23px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(249, 12, 12);
+}
